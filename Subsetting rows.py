@@ -1,3 +1,4 @@
+'''
 Subsetting rows
 A large part of data science is about finding which bits of your dataset are interesting. One of the simplest techniques for this is to find a subset of rows that match some criteria. This is sometimes known as filtering rows or selecting rows.
 
@@ -23,3 +24,10 @@ Filter homelessness for cases where the USA Census region is "Mountain", assigni
 
 3
 Filter homelessness for cases where the number of family members is less than one thousand and the region is "Pacific", assigning to fam_lt_1k_pac. View the printed result
+'''
+
+# Filter for rows where individuals is greater than 10000
+ind_gt_10k = homelessness[homelessness["individuals"] > 10000]
+
+# See the result
+print(ind_gt_10k)
