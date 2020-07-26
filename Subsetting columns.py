@@ -29,4 +29,4 @@ Print the head of the result.
 individuals = homelessness["individuals"]
 
 # Print the head of the result
-print(homelessness.head())
+print(individuals.head())
