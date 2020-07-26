@@ -21,3 +21,6 @@ Take Hint (-30 XP)
 '''
 # Import pandas using the alias pd
 import pandas as pd
+
+# Print the values of homelessness
+print(homelessness.values)
