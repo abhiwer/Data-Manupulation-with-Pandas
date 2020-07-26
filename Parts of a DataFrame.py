@@ -19,3 +19,5 @@ Print the column names of homelessness.
 Print the index of homelessness.
 Take Hint (-30 XP)
 '''
+# Import pandas using the alias pd
+import pandas as pd
